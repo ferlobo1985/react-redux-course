@@ -1,0 +1,192 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1b1b;
+}
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===================================
+                HEADER
+===================================*/
+
+
+header {
+    background: #fff;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+header .logo {
+    flex-grow: 1;
+}
+header .logo span {
+    background: url('/images/logo.png') no-repeat;
+    display: inline-block;
+    width: 58px;
+    height: 24px;
+}
+
+/*===================================
+                SLIDER
+===================================*/
+
+.item_slider {
+    height:500px;
+    background-size: cover !important;
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.item_slider .caption {
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+    text-align: right;
+    width: 320px;
+    text-transform: uppercase;
+}
+
+.item_slider .caption h4 {
+    font-weight: 300;
+        margin: 0px;
+}
+
+.item_slider .caption p {
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+
+/*===================================
+            SUBSCRIBE
+===================================*/
+
+.subcribe_panel {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.subcribe_panel h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.subcribe_panel input {
+    border-radius: 20px;
+    border: 3px solid #dddddd;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.subcribe_panel input:focus {
+    outline-width: 0;
+}
+.subcribe_panel small {
+    font-size: 10px;
+    line-height: 0px;
+}
+.subcribe_panel .error{
+    display:none;
+    color: #F44336;
+}
+.subcribe_panel .success {
+    display:none; 
+    color: #4CAF50;
+}
+
+
+.subcribe_panel .error.show,
+.subcribe_panel .success.show  {
+    display:block;
+}
+
+/*===================================
+            Blocks
+===================================*/
+
+.home_block {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.home_block .item {
+    flex-grow: 1;
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+}
+
+.home_block .item.lg {
+  -webkit-animation-delay: 200ms;
+}
+.home_block .item.md {
+  -webkit-animation-delay: 500ms;
+}
+.home_block .item.sm {
+  -webkit-animation-delay: 800ms;
+}
+
+.home_block .item.lg  {
+    width:50%;
+}
+
+.home_block .item.md  {
+    width:30%;
+}
+
+.home_block .item.sm  {
+    width:20%;
+}
+
+.home_block .item .veil {
+    background: #000000;
+    opacity:0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    transition: all 500ms ease-in-out;
+
+}
+.home_block .item:hover .veil {
+    opacity:0;
+    transition: all 500ms ease-in-out;
+}
+
+.home_block .item .image{
+      height: 270px;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.home_block .item .title {
+    background: black;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.home_block .item:hover .title {
+    transform: translate(0px, -39px);
+    transition: all 500ms ease-in-out;
+}
+
+.home_block .item .title a {
+    color:#fff;
+}

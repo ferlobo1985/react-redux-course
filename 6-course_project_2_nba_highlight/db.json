@@ -1,0 +1,114 @@
+{
+  "home": {
+    "slider": [
+      {
+        "id": "1",
+        "cover": "cover_1.jpg",
+        "topic": "DeShawn Stevenson",
+        "title": "Top scorer of the week"
+      },
+      {
+        "id": "2",
+        "cover": "cover_2.jpg",
+        "topic": "NY NICKS",
+        "title": "Another win"
+      },
+      {
+        "id": "3",
+        "cover": "cover_3.jpg",
+        "topic": "NBA RECORDS",
+        "title": "Best games in history"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "p1",
+        "type":"lg",
+        "image": "1.jpg",
+        "title": "Milwaukee Highlights",
+        "link": "/highlights"
+      },
+      {
+        "id": "p2",
+        "type":"md",
+        "image": "2.jpg",
+        "title": "Scorer of the week",
+        "link": "/scorers"
+      },
+      {
+        "id": "p3",
+        "type":"sm",
+        "image": "3.jpg",
+        "title": "Super Dunks",
+        "link": "/dunks"
+      },
+      {
+        "id": "p4",
+        "type":"sm",
+        "image": "4.jpg",
+        "title": "Gino did it again",
+        "link": "/gino"
+      },
+      {
+        "id": "p5",
+        "type":"md",
+        "image": "5.jpg",
+        "title": "Super Blazers",
+        "link": "/blazers"
+      },
+      {
+        "id": "p6",
+        "type":"lg",
+        "image": "6.jpg",
+        "title": "Memphis to the win",
+        "link": "/matches"
+      }
+    ],
+    "poll": [
+      {
+        "id": "p1",
+        "team": "Golden State",
+        "thumg": "ss",
+        "count": 2543
+      },
+      {
+        "id": "p1",
+        "team": "Cavaliers",
+        "thumg": "ss",
+        "count": 2343
+      },
+      {
+        "id": "p1",
+        "team": "New york",
+        "thumg": "ss",
+        "count": 2
+      }
+    ]
+  },
+  "subcriptions": [
+    {
+      "email": "dssdfs@hry.com",
+      "id": 1
+    },
+    {
+      "email": "dddd@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "fernando@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "sdfsdf@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "fernando@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "fernando@gmail.com",
+      "id": 6
+    }
+  ]
+}
