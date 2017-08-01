@@ -1,0 +1,32 @@
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+}
+
+
+/*==================================
+                SEARCH
+====================================*/
+
+.main_search {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.main_search input {
+    font-family: Roboto;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.main_search  input:focus{
+    outline: none;
+}

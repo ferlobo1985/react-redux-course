@@ -1,0 +1,16 @@
+
+{
+    "carsIndex":[
+        {"id":1,"brand":"Ford","model":"Mustang","year":1985},
+        {"id":2,"brand":"Nissan","model":"Altima","year":2017},
+        {"id":3,"brand":"Nissan","model":"Armada","year":2017},
+        {"id":3,"brand":"Nissan","model":"Frontier","year":2017},
+        {"id":3,"brand":"Nissan","model":"Maxima","year":2017},
+        {"id":3,"brand":"Ford","model":"Fiesta","year":2015},
+        {"id":3,"brand":"Ford","model":"Focus","year":2015},
+        {"id":3,"brand":"Ford","model":"Taurus","year":2015},
+        {"id":3,"brand":"Honda","model":"Accord","year":2015},
+        {"id":3,"brand":"Honda","model":"Amaze ","year":2015},
+        {"id":3,"brand":"Honda","model":"Civic ","year":2015}
+    ]
+}
