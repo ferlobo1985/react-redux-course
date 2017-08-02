@@ -10,3 +10,20 @@ export function getCars(keyword){
     payload:request
   }
 }
+
+export function carDetail(id){
+  const request = fetch(`${URL_ROOT}/carsIndex?id=${id}`, { method: 'GET'})
+                  .then(response => response.json());
+
+  return{
+    type: 'CAR_DETAIL',
+    payload:request
+  }
+}
+
+export function clearDetail(){
+    return{
+      type:'CLEAR_DETAIL',
+      payload:[]
+    }
+}

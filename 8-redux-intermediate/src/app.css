@@ -6,6 +6,10 @@ body {
     font-family: Roboto;
 }
 
+a {
+    text-decoration: none;
+    color:inherit;
+}
 
 /*==================================
                 SEARCH
@@ -29,4 +33,49 @@ body {
 
 .main_search  input:focus{
     outline: none;
+}
+
+/*==================================
+            LIST OF CARS
+====================================*/
+
+
+.car_item {
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+.car_item .left {
+    width:100px;
+}
+.car_item .left img {
+    width:100%;
+}
+
+.car_item .right {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.car_item .right h4,
+.car_item .right h6 {
+    margin: 0px;
+}
+
+
+/*==================================
+            CAR DETAIL
+====================================*/
+.car_detail img {
+    width:100%;
+}
+
+.car_detail h2,
+.car_detail h4 {
+    margin: 0px;
+}
+
+.car_detail .content {
+    padding:10px;
 }
