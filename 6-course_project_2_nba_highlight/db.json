@@ -23,42 +23,42 @@
     "blocks": [
       {
         "id": "p1",
-        "type":"lg",
+        "type": "lg",
         "image": "1.jpg",
         "title": "Milwaukee Highlights",
         "link": "/highlights"
       },
       {
         "id": "p2",
-        "type":"md",
+        "type": "md",
         "image": "2.jpg",
         "title": "Scorer of the week",
         "link": "/scorers"
       },
       {
         "id": "p3",
-        "type":"sm",
+        "type": "sm",
         "image": "3.jpg",
         "title": "Super Dunks",
         "link": "/dunks"
       },
       {
         "id": "p4",
-        "type":"sm",
+        "type": "sm",
         "image": "4.jpg",
         "title": "Gino did it again",
         "link": "/gino"
       },
       {
         "id": "p5",
-        "type":"md",
+        "type": "md",
         "image": "5.jpg",
         "title": "Super Blazers",
         "link": "/blazers"
       },
       {
         "id": "p6",
-        "type":"lg",
+        "type": "lg",
         "image": "6.jpg",
         "title": "Memphis to the win",
         "link": "/matches"
@@ -109,6 +109,2125 @@
     {
       "email": "fernando@gmail.com",
       "id": 6
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Hawks",
+      "logo": "hawks.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Celtics",
+      "logo": "celtics.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nets",
+      "logo": "nets.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hornets",
+      "logo": "hornets.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bulls",
+      "logo": "bulls.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cavaliers",
+      "logo": "cavaliers.png",
+      "poll": "true",
+      "count": 2354,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mavericks",
+      "logo": "mavericks.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Nuggets",
+      "logo": "nuggets.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pistons",
+      "logo": "pistons.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Warriors",
+      "logo": "warriors.png",
+      "poll": "true",
+      "count": 2827,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Rockets",
+      "logo": "rockets.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Pacers",
+      "logo": "pacers.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Clippers",
+      "logo": "clippers.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Lakers",
+      "logo": "lakers.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Grizzlies",
+      "logo": "grizzlies.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Heat",
+      "logo": "heat.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Bucks",
+      "logo": "bucks.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Timberwolves",
+      "logo": "timberwolves.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Pelicans",
+      "logo": "pelicans.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "knicks",
+      "logo": "knicks.png",
+      "poll": "true",
+      "count": 11,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Thunder",
+      "logo": "thunder.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Magic",
+      "logo": "magic.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "76ers",
+      "logo": "76ers.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Spurs",
+      "logo": "spurs.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Suns",
+      "logo": "suns.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Kings",
+      "logo": "kings.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Raptors",
+      "logo": "raptors.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Jazz",
+      "logo": "jazz.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Blazers",
+      "logo": "blazers.png",
+      "poll": "false",
+      "count": 0,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
     }
   ]
 }

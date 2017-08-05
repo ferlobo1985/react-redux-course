@@ -15,25 +15,49 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+h4 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    margin: 15px 0px 5px;
+}
+
+
 /*===================================
                 HEADER
 ===================================*/
 
-
 header {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header,footer {
     background: #fff;
     align-items: center;
     padding: 10px;
     font-family: 'Fjalla One', sans-serif;
 }
-header .logo {
+header .logo,
+footer .logo {
     flex-grow: 1;
+    height: 22px;
 }
-header .logo span {
+header .logo span,
+footer .logo span {
     background: url('/images/logo.png') no-repeat;
     display: inline-block;
     width: 58px;
     height: 24px;
+}
+
+footer {
+    background: #1f1f1f;
+    margin-top: 30px;
 }
 
 /*===================================
@@ -189,4 +213,174 @@ header .logo span {
 
 .home_block .item .title a {
     color:#fff;
+}
+
+/*===================================
+                POLL
+===================================*/
+
+.home_poll {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.poll_container {
+    display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+.poll_container .poll_item{
+    padding:20px;
+    flex-grow: 1;
+}
+
+.poll_container .poll_item img{
+    width: 80%;
+}
+.poll_container .poll_item div {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+
+/*===================================
+                TEAMS
+===================================*/
+
+
+.teams_component {
+    min-height: 800px;
+}
+
+.teams_input {
+    text-align: center;
+    padding: 20px 0px;
+    background: #e6e6e6;
+}
+
+.teams_input input {
+    font-family: Roboto;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.teams_input  input:focus{
+    outline: none;
+}
+
+
+.teams_container span {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.teams_container .team_item{
+    width:25%;
+    padding:30px;
+    box-sizing: border-box;
+}
+.teams_container .team_item img {
+    width:100%;
+
+}
+
+
+/*===================================
+                TEAM
+===================================*/
+
+.team_data_wrapper {
+    display: flex; 
+}
+
+.team_data_wrapper .left {
+    box-sizing: border-box;
+    padding:10px 20px;
+}
+
+.team_data_wrapper .right {
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-left: 1px solid #b9b9b9;
+    padding: 0px 20px;
+}
+
+.team_data_wrapper .left img {
+    width: 150px;
+}
+
+
+.team_data_wrapper h1{
+    color: #6d6d6d;
+}
+
+
+.team_data_wrapper .squad {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team_data_wrapper .squad .item {
+    position: relative;
+    width: 25%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.team_data_wrapper .squad h4 {
+    text-align: center;
+    color: #006bb6;
+}
+
+
+.team_data_wrapper .squad .item img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.team_data_wrapper .squad .item .node{
+    font-size: 14px;
+    padding: 4px 0px;
+}
+.team_data_wrapper .squad .item .node span{
+    font-weight: 600;
+}
+
+/*=======================================
+                FADE 
+========================================*/
+
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }

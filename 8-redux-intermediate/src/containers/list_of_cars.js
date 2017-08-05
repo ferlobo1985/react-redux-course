@@ -10,7 +10,7 @@ class ListOfCars extends Component {
                 return(
                     <Link to={`/car/${item.id}`} key={item.id} className="car_item">
                         <div className="left">
-                            <img src={`/images/${item.image}`}/>
+                            <img src={`/images/logos/${item.image}`}/>
                         </div>
                         <div className="right">
                             <h4>{item.model}</h4>
