@@ -12,18 +12,6 @@ a {
 }
 
 
-/* =======================================
-                    HEADER
-==========================================*/
-
-header {
-    font-family: 'Monoton', cursive;
-    text-align: center;
-    font-size: 33px;
-    border-bottom: 1px solid #2196F3;
-    color: #949494;
-}
-
 
 /* =======================================
                     BANNER
@@ -69,11 +57,12 @@ header {
 
 .artists_list .artist_item {
     display: block;
-    height: 250px;
-    background-size: contain !important;
+    height: 290px;
+    background-size: cover!important;
     margin-bottom: 20px;
     position: relative;
 }
+
 .artists_list .artist_item div{
     background: #2196F3;
     color: #fff;
@@ -89,8 +78,22 @@ header {
     margin: 20px 0px;
 }
 
+
+
 /* =======================================
-                ARTISTS LIST
+                    HEADER
+==========================================*/
+
+header {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 33px;
+    border-bottom: 1px solid #2196F3;
+    color: #949494;
+}
+
+/* =======================================
+                ARTISTS BIO
 ==========================================*/
 
 .artist_bio{

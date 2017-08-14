@@ -65,8 +65,9 @@ footer {
 ===================================*/
 
 .item_slider {
-    height:500px;
+    height:700px;
     background-size: cover !important;
+    background-position: center center !important;
     position: relative;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -140,7 +141,7 @@ footer {
 }
 
 /*===================================
-            Blocks
+            BLOCKS
 ===================================*/
 
 .home_block {
@@ -157,16 +158,6 @@ footer {
     overflow: hidden;
 }
 
-.home_block .item.lg {
-  -webkit-animation-delay: 200ms;
-}
-.home_block .item.md {
-  -webkit-animation-delay: 500ms;
-}
-.home_block .item.sm {
-  -webkit-animation-delay: 800ms;
-}
-
 .home_block .item.lg  {
     width:50%;
 }
@@ -179,23 +170,8 @@ footer {
     width:20%;
 }
 
-.home_block .item .veil {
-    background: #000000;
-    opacity:0.7;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    transition: all 500ms ease-in-out;
-
-}
-.home_block .item:hover .veil {
-    opacity:0;
-    transition: all 500ms ease-in-out;
-}
-
 .home_block .item .image{
-      height: 270px;
+    height: 270px;
     background-size: cover !important;
     background-position: center center !important;
 }
@@ -214,6 +190,34 @@ footer {
 .home_block .item .title a {
     color:#fff;
 }
+
+
+
+.home_block .item.lg {
+  -webkit-animation-delay: 200ms;
+}
+.home_block .item.md {
+  -webkit-animation-delay: 500ms;
+}
+.home_block .item.sm {
+  -webkit-animation-delay: 800ms;
+}
+
+.home_block .item .veil {
+    background: #000000;
+    opacity:0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    transition: all 500ms ease-in-out;
+
+}
+.home_block .item:hover .veil {
+    opacity:0;
+    transition: all 500ms ease-in-out;
+}
+
 
 /*===================================
                 POLL

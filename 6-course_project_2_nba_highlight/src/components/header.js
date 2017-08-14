@@ -5,9 +5,9 @@ const Header = () => {
     return(
         <header>
             <div className="flexbox-container">
-                <div className="logo">
+                <Link to="/" className="logo">
                     <span></span>
-                </div>
+                </Link>
                 <nav>
                     <Link to="/teams">Teams</Link>
                 </nav>

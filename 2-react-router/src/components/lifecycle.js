@@ -37,9 +37,7 @@ class Lifecycle extends Component {
     }
 
 
-    componentWillReceiveProps(nextProps){
-        console.log('BEFORE RECEIVING PROPS')
-    }
+
     componentWillUnmount(){
          console.log('UNMOUNT COMPONENT')
     }
@@ -51,7 +49,7 @@ class Lifecycle extends Component {
                <h1>{this.state.title}</h1>  
                <br/>
                <div>{this.state.body}</div>
-               <div onClick={()=> this.setState({title:'something ele'})}>CLICK TO CHANGE</div>              
+               <div onClick={()=> this.setState({title:'something else'})}>CLICK TO CHANGE</div>              
             </div>
         )
     }

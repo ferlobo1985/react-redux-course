@@ -1,6 +1,9 @@
 import React,{ Component } from 'react';
 
 import Header from './header';
+import AlbumList from './albumList';
+
+const REQ_URL = `http://localhost:3005/artists`
 
 class Artist extends Component {
     constructor(props){
@@ -12,8 +15,7 @@ class Artist extends Component {
     }
 
     componentDidMount() {
-        const URL =  `http://localhost:3004/artists/${this.props.match.params.artistid}`
-        fetch(URL, {
+        fetch(`${REQ_URL}/${this.props.match.params.artistid}`, {
             method: 'GET'
         })
         .then(response => response.json())
@@ -22,17 +24,7 @@ class Artist extends Component {
         })
     }
 
-    showAlbumList (albums) {
-        if(albums){
-            return albums.map(function(item){
-                return (
-                    <img alt="" src={`/images/albums/${item.cover}.jpg`}/>
-                )
-            })
-        }
-      
-    }
-
+ 
     render(){
         return(
             <div>
@@ -47,9 +39,7 @@ class Artist extends Component {
                             {this.state.artist.bio}
                         </div>
                     </div>
-                    <div className="albums_list">
-                        {this.showAlbumList(this.state.artist.albums)}
-                    </div>
+                    <AlbumList albumList={this.state.artist.albums}/>
             </div>
             </div>
         )

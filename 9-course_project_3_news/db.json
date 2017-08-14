@@ -1,0 +1,40 @@
+{
+    "articles":[
+        {
+            "id":1,
+            "title":"news title",
+            "body":"body of the news",
+            "category":"shows",
+            "img":"1.jpg",
+            "date":"21/21/1944",
+            "author":""
+        },
+        {
+            "id":2,
+            "title":"news title",
+            "body":"body of the news",
+            "category":"shows",
+            "img":"1.jpg",
+            "date":"21/21/1944",
+            "author":""
+        },
+        {
+            "id":3,
+            "title":"news title",
+            "body":"body of the news",
+            "category":"shows",
+            "img":"1.jpg",
+            "date":"21/21/1944",
+            "author":""
+        },
+        {
+            "id":4,
+            "title":"news title",
+            "body":"body of the news",
+            "category":"shows",
+            "img":"1.jpg",
+            "date":"21/21/1944",
+            "author":""
+        }
+    ]
+}

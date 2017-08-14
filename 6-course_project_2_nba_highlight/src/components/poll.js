@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const URL_HOME = 'http://localhost:3004/teams';
+const URL_HOME = 'http://localhost:3005/teams';
 
 class Poll extends Component{
     constructor(props){
@@ -28,11 +28,11 @@ class Poll extends Component{
         fetch(`${URL_HOME}/${id}`, {
         method: 'PATCH',
         headers: {
-            'Accept': 'application/json, text/plain, */*',
+            'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({count:count + 1})
-        }).then(res=>res.json())
+        })
         .then(()=>{
             this.fetchPoll()
         });

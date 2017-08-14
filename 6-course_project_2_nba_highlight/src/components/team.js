@@ -1,13 +1,13 @@
 import React,{ Component } from 'react';
 
-const URL_TEAMS = 'http://localhost:3004/teams';
+const URL_TEAMS = 'http://localhost:3005/teams';
 
 class Team extends Component{
     constructor(props){
         super(props)
 
         this.state = {
-            data:''
+            data:[]
         }
     }
 
@@ -43,7 +43,6 @@ class Team extends Component{
     } 
 
     renderData({data}){
-        if(data){
             return data.map((item)=>{
                 return (
                     <div key={item.name} className="team_data_wrapper">
@@ -61,7 +60,6 @@ class Team extends Component{
                     </div>
                 )
             })
-        }
     }
 
     

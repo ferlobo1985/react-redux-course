@@ -12,13 +12,23 @@ class Subscriptions extends Component {
     }
 
 
+    clearMessages() {
+        setTimeout(function(){
+                this.setState({
+                    error:false,
+                    success:false
+                })
+            }.bind(this),3000)
+    }
+    
+
     saveSubscription = (email) => {
-        const URL_EMAIL = 'http://localhost:3004/subcriptions'
+        const URL_EMAIL = 'http://localhost:3005/subcriptions'
 
         fetch(URL_EMAIL, {
         method: 'post',
         headers: {
-            'Accept': 'application/json, text/plain, */*',
+            'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({email})
@@ -42,12 +52,12 @@ class Subscriptions extends Component {
         }else{
             this.setState({error:true})
         }
+        this.clearMessages()
     }
 
     onChangeInput = (event) => {
         this.setState({
-            email:event.target.value,
-            error:false
+            email:event.target.value
         })
     }
 

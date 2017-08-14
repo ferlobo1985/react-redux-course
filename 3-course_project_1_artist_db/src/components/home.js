@@ -4,7 +4,7 @@ import Banner from './banner'
 import ArtistsList from './artistsList';
 
 // REQUESTS URL
-const URL_ARTIST = 'http://localhost:3004/artists'
+const URL_ARTIST = 'http://localhost:3005/artists'
 
 class Home extends Component {
     constructor(props){

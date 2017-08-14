@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto'
+}
+
+
+/*======================================
+                HEADER
+========================================*/
+
+header {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+/*======================================
+                LATEST
+========================================*/
+
+.home_latest {
+    box-sizing: border-box;
+    padding:0px;
+}
+
+.home_latest .item {
+    margin-bottom: 10px;
+}
+
+.home_latest .item .image_cover {
+    position:relative;
+    background-size: cover !important;
+    height:200px;
+}
+.home_latest .item .description {
+    position: absolute;
+    bottom: 0px;
+}
+.home_latest .item .description span {
+    background: red;
+    padding: 10px;
+    display: inline-block;
+}
+
+.home_latest .item .description div {
+    background: red;
+    padding: 10px;
+}

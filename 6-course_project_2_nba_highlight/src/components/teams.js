@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { CSSTransitionGroup } from 'react-transition-group';
 
-const URL_TEAMS = 'http://localhost:3004/teams';
+const URL_TEAMS = 'http://localhost:3005/teams';
 
 
 const fadeAnimation = {
@@ -20,8 +20,8 @@ class Teams extends Component{
         super(props)
 
         this.state = {
-            teams:'',
-            filtered:'',
+            teams:[],
+            filtered:[],
             keyword:''
         }
     }
@@ -40,15 +40,20 @@ class Teams extends Component{
             const list = this.state.teams.filter((item)=>{
                return item.name.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
             })
-            this.setState({filtered:list,keyword:event.target.value})
+            this.setState({ 
+                filtered:list,
+                keyword
+            })
         }else{
-            this.setState({filtered:this.state.teams,keyword:event.target.value})
+            this.setState({
+                filtered:this.state.teams,
+                keyword
+            })
         }
     }
 
 
     renderList({filtered}){
-        if(filtered){
             return filtered.map((item)=>{
                 return(
                     <Link to={`/team/${item.name}`} key={item.id} className="team_item">
@@ -56,7 +61,7 @@ class Teams extends Component{
                     </Link>
                 )
             })
-        }
+    
     }
 
     render(){

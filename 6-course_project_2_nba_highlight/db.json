@@ -75,7 +75,7 @@
         "id": "p1",
         "team": "Cavaliers",
         "thumg": "ss",
-        "count": 2343
+        "count": 2544
       },
       {
         "id": "p1",
@@ -87,7 +87,7 @@
   },
   "subcriptions": [
     {
-      "email": "dssdfs@hry.com",
+      "email": "fer@gmail.com",
       "id": 1
     },
     {
@@ -99,16 +99,20 @@
       "id": 3
     },
     {
-      "email": "sdfsdf@gmail.com",
+      "email": "dddd@gmail.com",
       "id": 4
     },
     {
-      "email": "fernando@gmail.com",
+      "email": "fernando@gmail.como",
       "id": 5
     },
     {
       "email": "fernando@gmail.com",
       "id": 6
+    },
+    {
+      "email": "email@email.com",
+      "id": 7
     }
   ],
   "teams": [
@@ -482,7 +486,7 @@
       "name": "Cavaliers",
       "logo": "cavaliers.png",
       "poll": "true",
-      "count": 2354,
+      "count": 2365,
       "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
       "squad": [
         {
@@ -774,7 +778,7 @@
       "name": "Warriors",
       "logo": "warriors.png",
       "poll": "true",
-      "count": 2827,
+      "count": 2365,
       "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
       "squad": [
         {
@@ -1504,7 +1508,7 @@
       "name": "knicks",
       "logo": "knicks.png",
       "poll": "true",
-      "count": 11,
+      "count": 13,
       "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
       "squad": [
         {
