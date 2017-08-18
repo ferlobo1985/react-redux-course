@@ -1,14 +1,15 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const showLatest = ({latest}) => {
     if(latest){
         return latest.map((item)=>{
             return (
-                <div className="item">
+                <Link to={`/news/${item.id}`} key={item.id} className="item">
                     <div 
                         className="image_cover"
-                        style={{background:`url(/images/articles/1.jpg)`}}
+                        style={{background:`url(/images/articles/${item.img})`}}
                     >
                         <div className="description">
                             <span>{item.category}</span>
@@ -16,7 +17,7 @@ const showLatest = ({latest}) => {
                         </div>
                         
                     </div>
-                </div>
+                </Link>
             )
         })
     }
@@ -25,7 +26,7 @@ const showLatest = ({latest}) => {
 
 const LatestNews = (props) => {
     return (
-        <div className="home_latest">
+        <div className="home-latest">
             {showLatest(props)}
         </div>
     );

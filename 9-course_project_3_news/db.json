@@ -1,40 +1,152 @@
 {
-    "articles":[
+  "articles": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "category": "shows",
+      "img": "1.jpg",
+      "date": "21/21/1944",
+      "author": "Jon Record",
+      "views": 200,
+      "likes": [
+        21,
+        12
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sed do eiusmod tempor incididunt ut labore et dolore ",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "category": "Sports",
+      "img": "2.jpg",
+      "date": "21/21/1944",
+      "author": "Mary Bottom",
+      "views": 456,
+      "likes": [
+        57,
+        7
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Similique sunt in culpa qui officia deserunt mollitia animi",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "category": "Politics",
+      "img": "3.jpg",
+      "date": "21/21/1944",
+      "author": "Aston Kutcher",
+      "views": 678,
+      "likes": [
+        345,
+        90
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Duis aute irure dolor in reprehenderit in voluptate",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "category": "shows",
+      "img": "4.jpg",
+      "date": "21/21/1944",
+      "author": "Linda Writer",
+      "views": 245,
+      "likes": [
+        45,
+        9
+      ]
+    },
+    {
+      "id": 5,
+      "title": "LorNeque porro quisquam est, qui dolorem ipsum quia dolor sit",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "category": "shows",
+      "img": "5.jpg",
+      "date": "21/21/1944",
+      "author": "Jenny Roberts",
+      "views": 890,
+      "likes": [
+        234,
+        89
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Vel illum qui dolorem eum fugiat",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "category": "shows",
+      "img": "6.jpg",
+      "date": "21/21/1944",
+      "author": "Marlin Carson",
+      "views": 123,
+      "likes": [
+        567,
+        9
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Et harum quidem rerum facilis est et expedita distinctio",
+      "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "category": "shows",
+      "img": "7.jpg",
+      "date": "21/21/1944",
+      "author": "Meredith Cash",
+      "views": 237,
+      "likes": [
+        12,
+        9
+      ]
+    }
+  ],
+  "galleries": [
+    {
+      "id": 1,
+      "artist": "Ariana Grande",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
         {
-            "id":1,
-            "title":"news title",
-            "body":"body of the news",
-            "category":"shows",
-            "img":"1.jpg",
-            "date":"21/21/1944",
-            "author":""
+          "img": "1_1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
         },
         {
-            "id":2,
-            "title":"news title",
-            "body":"body of the news",
-            "category":"shows",
-            "img":"1.jpg",
-            "date":"21/21/1944",
-            "author":""
+          "img": "1_2.jpg",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
         },
         {
-            "id":3,
-            "title":"news title",
-            "body":"body of the news",
-            "category":"shows",
-            "img":"1.jpg",
-            "date":"21/21/1944",
-            "author":""
-        },
-        {
-            "id":4,
-            "title":"news title",
-            "body":"body of the news",
-            "category":"shows",
-            "img":"1.jpg",
-            "date":"21/21/1944",
-            "author":""
+          "img": "1_3.jpg",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
         }
-    ]
+      ],
+      "views": 237,
+      "likes": [
+        18,
+        13
+      ]
+    },
+    {
+      "id": 2,
+      "artist": "Matt Damon",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "img": "2_1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "img": "2_2.jpg",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
+        },
+        {
+          "img": "2_3.jpg",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
+        }
+      ],
+      "views": 237,
+      "likes": [
+        13,
+        10
+      ]
+    }
+  ]
 }
