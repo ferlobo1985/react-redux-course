@@ -7,7 +7,6 @@ export default function(state={}, action){
         case 'GET_SELECTED_NEWS':
             return {...state,selected:action.payload};
         case 'HANDLE_LIKES_ARTICLE':
-            // return {...state,selected:action.payload}; // TO SHOW PROBLEM WHEN RECEIVING OBJECT INSTEAD OF ARRAY
             return {...state,selected:[action.payload]};
         case 'CLEAR_SELECTED_NEWS':
             return {...state,selected:action.payload};

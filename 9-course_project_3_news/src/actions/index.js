@@ -1,3 +1,4 @@
+// json-server --watch db.json --port 3004
 const URL = `http://localhost:3004`
 
 export function latestNews(){
