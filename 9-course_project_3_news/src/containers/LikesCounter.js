@@ -8,7 +8,7 @@ class LikesCounter extends Component {
 
     addLike = (action) =>{
         const props = this.props;
-        const newLikes = action === 'ADD' ? [props.likes +1,props.dislikes] : [props.likes,props.dislikes + 1]
+        const newLikes = action === 'ADD' ? [this.props.likes +1,this.props.dislikes] : [this.props.likes,this.props.dislikes + 1]
 
 
         this.props.handleLikes(newLikes,props.articleId,props.section,props.type)

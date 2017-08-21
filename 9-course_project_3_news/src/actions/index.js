@@ -37,7 +37,7 @@ export function clearSelectedNews(){
 }
 
 export function latestGallery(){
-    const request = fetch(`${URL}/galleries?_order=desc&_limit=2`, { method: 'GET'})
+    const request = fetch(`${URL}/galleries?_order=desc&_limit=3`, { method: 'GET'})
                   .then(response => response.json());
     return{
         type: 'GET_LATEST_GALLERY',
@@ -58,7 +58,7 @@ export function selectedGallery(id){
 export function clearSelectedGallery(){
     return{
         type: 'CLEAR_SELECTED_GALLERY',
-        payload:null
+        payload:[]
     }
 }
 

@@ -10,7 +10,6 @@ import Counter from './LikesCounter'
 const settings = {
       dots: true,
       infinite: true,
-      arrows:true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
@@ -28,7 +27,6 @@ class Gallery extends Component {
 
 
   renderSlider = ({selected}) => {
-    
     if (selected) {
       const gallery = selected[0]
       return (
@@ -69,7 +67,9 @@ class Gallery extends Component {
     const item = this.props.gallery
     return (
       <div className="slide-item-wrap">
+        <div className="main-slider">
           {this.renderSlider(item)}
+        </div>
       </div>
     );
   }
