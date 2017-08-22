@@ -1,0 +1,116 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto'
+}
+
+.top{
+    background: #d5d5d5;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    color: #666666;
+    position: relative;
+}
+.top h3{
+    margin:0px;
+}
+
+.top a {
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    background: #eaeaea;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.messages_container {
+    padding:10px;
+}
+
+.messages_container .item-list {
+    border: 1px solid #c9c9c9;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.messages_container .item-list .title{
+    padding: 10px;
+    background: #00BCD4;
+    color: #fff;
+    font-weight: 500;
+}
+
+.messages_container .item-list .sender {
+    padding: 3px 10px;
+    background: #e3e3e3;
+    color: #949494;
+    font-weight: 300;
+    font-size: 12px;
+}
+.messages_container .item-list .sender span {
+    font-weight: 700;
+}
+
+.messages_container .item-list .body {
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+label {
+    display: block;
+    font-weight: 700;
+    color: #5b5b5b;
+    margin-bottom: 5px;
+}
+
+input,textarea {
+    width:100%;
+    box-sizing: border-box;
+    border: 1px solid #bababa;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f0f0f0;
+}
+.form-input.has-error input, 
+.form-input.has-error textarea {
+    border:1px solid #F44336;
+}
+
+input:focus ,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    background: #2196F3;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.form-input  {
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    font-weight: 700;
+    color: #F44336;
+    margin-top: 10px;
+}
+
+form {
+    padding:20px;
+
+}
