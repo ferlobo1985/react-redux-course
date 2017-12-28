@@ -15,7 +15,7 @@ class Artist extends Component {
     }
 
     componentDidMount() {
-        fetch(`${REQ_URL}/${this.props.match.params.artistid}`, {
+        fetch(`${REQ_URL}/${this.props.match.params.id}`, {
             method: 'GET'
         })
         .then(response => response.json())
